@@ -1,0 +1,30 @@
+td{
+
+    color:blueviolet;
+    background-color:brown
+}
+th{
+    color:green;
+    background-color:black;
+}
+#ram{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+ font-weight:100;
+
+}
+#sita{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:250;
+}
+*
+{
+    
+    text-align:center;
+}
+.abc{
+    color:greenyellow;
+    background-color:blueviolet;
+}
+body{
+    background-color:black;
+}

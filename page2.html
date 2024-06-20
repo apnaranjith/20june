@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- I am adding style to the webpage using internal styling -->
+     <style>
+        Body{
+            background-color:aquamarine;
+            border:2px  blue solid;
+             color:orange;
+        }
+     </style>
+    
+</head>
+<body>
+    <fieldset>
+        <legend >Form 1</legend>
+        <h1>Ranjith 1st form</h1>
+        <form action="./sample.html" target="_blank" autocomplete="on" novalidate method="get">
+      <label for="id1">FULL NAME:</label>  
+      <input  id="id1" type="text" value="name"><BR><BR>
+        <label for="id2">LAST NAME:</label>  
+      <input  id="id2" type="text" value="Lname"><br><br>
+      <label for="id3">
+        select the jet:
+      </label>
+
+      <select name="jets" id="id3">
+        <optgroup label="indian jets">
+            <option value="k1">k1</option>
+            <option value="k8">k8</option><option value="k9">k9</option>
+        </optgroup>
+        <optgroup label="American Jets">
+            <option value="k2">k2</option>
+            <option value="k6">k6</option>
+        </optgroup>
+      </select><br><br>
+      
+      <br><br>
+      <label for="y">Enter your number:</label>
+      <input  name="number" id="y" type="number" max="5" min="1" step="4"><br><br>
+      <input type="submit">
+        </form>
+    </fieldset>
+    
+    
+</body>
+</html>

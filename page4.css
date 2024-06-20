@@ -1,0 +1,17 @@
+span>em{
+    background-color: green;
+}
+span+bold{
+    background-color:orange;
+}
+
+span>mark{
+    background-color: blueviolet;
+}
+span h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color:brown;
+}
+span~h3{
+    background-color:beige;
+}

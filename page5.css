@@ -1,0 +1,12 @@
+div>span{
+    background-color:red;
+}
+span+h2{
+    color:green;
+}
+div+h5{
+    color:orange;
+}
+div~p{
+    font-weight:900;
+}
